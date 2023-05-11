@@ -58,7 +58,6 @@ class MainWindow(QMainWindow):
         self.addDockWidget(Qt.DockWidgetArea.LeftDockWidgetArea, dock_widget)
 
     def changeTextEditSettings(self, checked):
-        print('sss')
         """Change formatting features for QTextEdit."""
         if checked:
             self.text_edit.setAutoFormatting(
